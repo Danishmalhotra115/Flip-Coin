@@ -1,0 +1,156 @@
+*{
+  margin:0;
+  padding:0;
+  
+}
+body{
+    background-color: black;
+    width:100%;
+    height:100%;
+}
+.heading{
+    text-align: center;
+    color:white;
+    font-family: 'Asset', serif;
+    font-size:2.7rem;
+    margin-top:30px;
+    
+}
+
+
+.character{
+ 
+    display:block;
+    margin:auto;
+    width:230px;
+    transition: opacity 0.5s ease-in-out;
+    height: auto; 
+}
+.container{
+  margin-top:35px;
+}
+
+.jack-intro{
+  margin-top:20px;
+    color:white;  
+    font-family:cursive;
+    text-align: center;
+    font-size: 23px;
+    font-weight: normal;
+}
+.head-score,.tail-score{
+  color: rgb(192, 191, 191);
+  font-family: cursive;
+  text-align: center;
+  display:inline;
+  margin:10px;
+}
+
+.score{
+  text-align: center;
+  margin:0.5em;
+}
+.button{
+  margin-top:25px;
+    text-align: center;
+}
+.container{
+  display:flex;
+  flex-direction: column;
+}
+.btn{
+    width:100px;
+    height:48px;
+    border-radius: 30px;
+    border-style: none;
+    color:black;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 4%;
+    font-size: 14px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  .my-playlist{
+    margin-left: 20px;
+  }
+  .credentials {
+    color:rgb(128,129,129);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    text-align: center;
+    width: 100%;
+    bottom:15px
+}
+
+.para-credentials {
+    margin: 0;
+    width:auto;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.para-credentials:hover{
+  color:rgb(192,191,191);
+}
+    
+  
+  
+  span{
+    font-size:55px;
+    color:rgb(64, 155, 150);
+    font-family: "Rubik Doodle Shadow", system-ui;
+  }
+  .btn:hover{
+    transform: scale(1.1);
+  }
+  .btn:active{
+    background-color: rgb(129, 129, 129);
+    transform: scale(1);
+    color:rgb(44, 44, 44);
+  }
+
+
+  @media screen and (max-width:767px){
+    .heading{
+      font-size: 2.4rem;
+    }
+    .character{
+      width:190px;
+    }
+    .jack-intro{
+      font-size:20px;
+    }
+    span{
+      font-size:53px;
+    }
+  }
+  @media screen and (max-width:479px){
+    .heading{
+      font-size:2.3rem;
+      
+    }
+    .character{
+      width:160px;
+    }
+    .head-score, .tail-score{
+      font-size:15px;
+    }
+    .credentials{
+      bottom:6px;
+      
+    }
+    .jack-intro{
+      font-size:18px;
+    }
+    span{
+      font-size:50px;
+    }
+
+  }
+ 
+
+
+ 
+  
